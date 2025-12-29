@@ -26,6 +26,5 @@ def test_add_task_in_my_day():
     driver.press_keycode(66)  # ENTER
     print(" Task saved")
 
-    time.sleep(3)
     driver.quit()
     print(" Test completed")
